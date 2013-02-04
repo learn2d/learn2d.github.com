@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Learn2D]]></title>
+  <link href="http://learn2d.com/atom.xml" rel="self"/>
+  <link href="http://learn2d.com/"/>
+  <updated>2013-02-04T03:03:41-07:00</updated>
+  <id>http://learn2d.com/</id>
+  <author>
+    <name><![CDATA[Chris M. Welsh]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What is Learn2D?]]></title>
+    <link href="http://learn2d.com/blog/2013/02/04/what-is-learn2d/"/>
+    <updated>2013-02-04T12:30:00-07:00</updated>
+    <id>http://learn2d.com/blog/2013/02/04/what-is-learn2d</id>
+    <content type="html"><![CDATA[<p>This is the new blog of the Learn2D project. Learn2D is a browser-based multiplayer game development platform. It allows players to create and customize games inside their browser.</p>
+
+<p>The default perspective will be similar to an old SNES game, The Legend of Zelda: A Link to the Past. This perspective is often called &#8220;birds-eye view&#8221;. It&#8217;s the same kind of camera angle used by early Ultima, Final Fantasy, and Pokemon games. Learn2D will only initially support games using birds-eye view. It&#8217;s very easy to create pixel art for this perspective.</p>
+
+<p>The coordinate system in Learn2D will be 2D, with a limited z-axis to use for graphical effects and projectiles. Limiting the engine to 2D will greatly reduce complexity. I&#8217;d like to eventually have multiple client implementations. At the moment, the browser client (currently working on all standards-compliant desktop web browsers) is the primary platform. Keeping the engine simple will make it easier to port the client to new platforms.</p>
+
+<p>The scripting system will allow players to write simple scripts in their web browser using JavaScript. I&#8217;ll write a blog post about the scripting capability at a later time. At any time in development, you will be able to instantly run your code in the browser-based game world and see how your script affects the game. There will be the capability to write and run scripts on the client (standards-compliant web browsers) and the server (server farm running on cloud VPS hosting).</p>
+
+<p>I&#8217;m hoping to create something interesting and see what happens.</p>
+]]></content>
+  </entry>
+  
+</feed>
